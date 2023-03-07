@@ -1,0 +1,23 @@
+{
+  "cli": {
+    "version": ">= 2.8.0",
+    "requireCommit": true
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "android":{
+        "serviceAccountKeyPath":"../../../Desktop/googlekey/pc-api-4756461730525905129-837-7cf755803f68.json"
+      }
+    }
+  }
+}
